@@ -1,0 +1,253 @@
+{
+  "project_info": {
+    "project_number": "968042038720",
+    "firebase_url": "https://mycitymystory-9773b.firebaseio.com",
+    "project_id": "mycitymystory-9773b",
+    "storage_bucket": "mycitymystory-9773b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968042038720:android:f8c100b0e972fd10",
+        "android_client_info": {
+          "package_name": "com.example.syrine.mycitymystroy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "968042038720-29u78sqhvc8hhubn7dbf2v7f1s1oslim.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.syrine.mycitymystroy",
+            "certificate_hash": "2C075F465A6F1185ACB3D4995CD21B4690A50DC5"
+          }
+        },
+        {
+          "client_id": "968042038720-pgm07oiq3opugdjcmu1mopa7192t2i4p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEdCa4CoOzd4WHgAXnw_j6oJK4R1IylV0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "968042038720-1drgq3qbjg1ehcs89jcntkkds92ervor.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.esprit.sim3.mycitymystory"
+              }
+            },
+            {
+              "client_id": "968042038720-pgm07oiq3opugdjcmu1mopa7192t2i4p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968042038720:android:0194aaae24b1aa1f",
+        "android_client_info": {
+          "package_name": "com.example.syrine.mycitymystoryapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "968042038720-knfsdp2mjso60lea2d4t59mej104jcbu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.syrine.mycitymystoryapp",
+            "certificate_hash": "2AC5D5A6E93448341B099A0DD2436A5296012E8C"
+          }
+        },
+        {
+          "client_id": "968042038720-bm33ri4rd7rgpane4tat4l095me4vaeb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.syrine.mycitymystoryapp",
+            "certificate_hash": "D498DFE07E5C6A7129AE731FF68B234432AC02E1"
+          }
+        },
+        {
+          "client_id": "968042038720-gq9or40bgkkjh942gndq0ibokn7kueno.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.syrine.mycitymystoryapp",
+            "certificate_hash": "2C075F465A6F1185ACB3D4995CD21B4690A50DC5"
+          }
+        },
+        {
+          "client_id": "968042038720-pgm07oiq3opugdjcmu1mopa7192t2i4p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEdCa4CoOzd4WHgAXnw_j6oJK4R1IylV0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "968042038720-1drgq3qbjg1ehcs89jcntkkds92ervor.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.esprit.sim3.mycitymystory"
+              }
+            },
+            {
+              "client_id": "968042038720-pgm07oiq3opugdjcmu1mopa7192t2i4p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968042038720:android:1bf9ca98f642658f",
+        "android_client_info": {
+          "package_name": "com.example.esprit.mycitymystory.mycitymystoryfinaleversion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "968042038720-pgm07oiq3opugdjcmu1mopa7192t2i4p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEdCa4CoOzd4WHgAXnw_j6oJK4R1IylV0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968042038720:android:dbf6fda33720c2ef",
+        "android_client_info": {
+          "package_name": "com.esprit.sim3.mycitymystory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "968042038720-pgm07oiq3opugdjcmu1mopa7192t2i4p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEdCa4CoOzd4WHgAXnw_j6oJK4R1IylV0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968042038720:android:b554acc66d51e5cf",
+        "android_client_info": {
+          "package_name": "com.esprit.mycitymystoryf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "968042038720-pgm07oiq3opugdjcmu1mopa7192t2i4p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEdCa4CoOzd4WHgAXnw_j6oJK4R1IylV0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968042038720:android:cda2bb6c8019d6ea",
+        "android_client_info": {
+          "package_name": "com.esprit.mycitymystory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "968042038720-pgm07oiq3opugdjcmu1mopa7192t2i4p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEdCa4CoOzd4WHgAXnw_j6oJK4R1IylV0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

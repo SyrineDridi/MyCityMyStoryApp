@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/WizardPageContainer"
+    android:background="@color/mi_icon_color_dark">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal|center">
+
+                <Button
+                    android:id="@+id/btnchosefile"
+                    android:layout_marginLeft="16dp"
+                    android:drawableLeft="@mipmap/ic_picture_48dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/mi_icon_color_dark"
+                    android:gravity="center_vertical|center_horizontal|center"
+                    android:textIsSelectable="false"
+                    style="@style/Widget.AppCompat.Button.Small"
+                    android:theme="@style/Base.AlertDialog.AppCompat" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/ImgUser" />
+            </RelativeLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/txtEmail"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@mipmap/ic_email_red_48dp"
+                    android:drawableTint="@android:color/holo_red_dark"
+                    android:singleLine="true"
+                    android:hint=" Email"
+                    android:inputType="textEmailAddress" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/txtPassword"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:singleLine="true"
+                    android:drawableLeft="@mipmap/ic_key_red_48_dp"
+                    android:drawableTint="@android:color/holo_red_dark"
+                    android:hint="Password"
+                    android:inputType="textPassword" />
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/txtFirstName"
+                        android:drawableLeft="@mipmap/ic_username_red_48dp"
+                        android:drawableTint="@android:color/holo_red_dark"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="First Name"
+                        android:inputType="textEmailAddress"
+                        android:singleLine="true" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <EditText
+                        android:id="@+id/txtLastName"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:drawableLeft="@mipmap/ic_username_red_48dp"
+                        android:drawableTint="@android:color/holo_red_dark"
+                        android:hint="Last name"
+                        android:singleLine="true" />
+                </android.support.design.widget.TextInputLayout>
+            </android.support.design.widget.TextInputLayout>
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <TextView style="@style/WizardPageTitle" />
+</LinearLayout>
+
+

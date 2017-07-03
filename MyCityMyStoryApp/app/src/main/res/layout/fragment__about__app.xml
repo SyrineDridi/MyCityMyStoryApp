@@ -1,0 +1,264 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.syrine.mycitymystory.Fragments.Fragment_About_App">
+
+        <!-- TODO: Update blank fragment layout -->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_weight="0.05"
+                    android:background="@color/cpb_red_dark"
+                    android:text="About App : "
+                    android:textAppearance="@style/TextAppearance.Small"
+                    android:textColor="@color/white"
+                    android:textEditNoPasteWindowLayout="@style/AppTheme"
+                    android:textSize="20dp"
+                    android:theme="@style/AppTheme" />
+
+                <TextView
+
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="168dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="0.51"
+                    android:gravity="center_horizontal|center"
+                    android:text="My City My story an application which make you flowing upcoming events happening in your city.
+Get event recommendations based on events you have attended and never miss out on your favorite artist’s concerts, conferences, festivals, and music gigs or sports events.
+\n This application will help you to never miss an event in your city
+"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/develloper"
+                        android:layout_width="match_parent"
+                        android:layout_height="38dp"
+                        android:background="@color/cpb_red_dark"
+                        android:text="Developed By "
+                        android:textAppearance="@style/TextAppearance.Small"
+                        android:textColor="@color/white"
+                        android:textEditNoPasteWindowLayout="@style/AppTheme"
+                        android:textSize="20dp"
+
+                        android:theme="@style/AppTheme" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginBottom="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="0.05"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginBottom="16dp"
+                            android:layout_weight="0.50"
+                            android:layout_marginTop="16dp"
+
+                            android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/image_syrine"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_weight="0.14"
+                            android:src="@drawable/syrine_photo"
+                            app:civ_border_color="#c20808"
+                            app:civ_border_width="2dp"
+                            android:layout_gravity="center_vertical|center_horizontal|center" />
+
+                            <TextView
+                                android:id="@+id/textView2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="52dp"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginRight="16dp"
+                                android:text="syrine.dridi@esprit.tn"
+                                android:textColor="@color/black"
+                                android:textSize="16dp"
+                                android:gravity="center_vertical|center_horizontal|center" />
+</LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginBottom="16dp"
+                            android:layout_marginTop="16dp"
+                            android:layout_weight="0.50"
+                            android:orientation="vertical">
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/image_ahmed"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_weight="0.14"
+                            android:src="@drawable/ahmed_image"
+                            app:civ_border_color="#c20808"
+                            app:civ_border_width="2dp"
+                            android:layout_gravity="center_vertical|center_horizontal|center" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="52dp"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginRight="16dp"
+                                android:text="ahmed.chebbi@esprit.tn"
+                                android:textColor="@color/black"
+                                android:textSize="16dp"
+                                android:gravity="center_vertical|center_horizontal|center" />
+
+                            </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="16dp"
+                        android:background="@color/cpb_red_dark"
+                        android:text="More Information : "
+                        android:textAppearance="@style/TextAppearance.Small"
+                        android:textColor="@color/white"
+                        android:textEditNoPasteWindowLayout="@style/AppTheme"
+                        android:textSize="20dp"
+                        android:theme="@style/AppTheme" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentStart="true"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="52dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="0.04"
+                            android:text="date      :"
+                            android:textColor="@color/black"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="0.41"
+                            android:text="Jan 2016"
+                            android:textColor="@color/black"
+                            android:textSize="16dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentStart="true"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="52dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+
+                            android:text="version : "
+                            android:textColor="@color/black"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="0.41"
+                            android:text="My City My Story 1.0"
+                            android:textColor="@color/black"
+                            android:textSize="16dp"  />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

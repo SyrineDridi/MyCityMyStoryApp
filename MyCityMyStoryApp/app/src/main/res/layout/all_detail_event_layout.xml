@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="false"
+            android:transitionName="venueImage"
+
+            />
+
+        <RelativeLayout
+            android:id="@+id/id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Tvtitle"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Trattoria"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/TvCat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Restaurant - Brunch"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="end|bottom">
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/btnShareFb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="20dp"
+                    android:clickable="true"
+                    app:backgroundTint="?android:attr/textColorPrimaryInverseNoDisable"
+                    app:fabSize="mini"
+                    app:srcCompat="@mipmap/ic_share_red_24dp" />
+
+                <android.support.design.widget.FloatingActionButton
+
+                    android:id="@+id/btnInvitfb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="66dp"
+                    android:clickable="true"
+                    app:srcCompat="@mipmap/ic_facebook_red_24dp"
+                    app:backgroundTint="@color/cardview_light_background"
+                    app:fabSize="mini" />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/btnParticipate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="11dp"
+                    android:layout_toStartOf="@+id/btnInvitfb"
+                    android:clickable="true"
+                    android:src="@mipmap/ic_particpate_re_24dp"
+                    app:backgroundTint="?attr/colorBackgroundFloating"
+                    app:fabSize="mini" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:weightSum="1">
+
+            <android.support.v7.widget.AppCompatRatingBar
+            android:id="@+id/rating"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:numStars="5"
+            android:progressBackgroundTint="@android:color/darker_gray"
+            android:progressTint="@android:color/holo_orange_light"
+            android:scaleX=".7"
+            android:scaleY=".7"
+            android:secondaryProgressTint="@android:color/holo_red_dark"
+            android:transformPivotX="0dp"
+            android:transformPivotY="0dp"
+            tools:backgroundTint="@color/material_orange_400"
+            tools:layout_gravity="center_vertical|center_horizontal" />
+
+            <android.support.v7.widget.AppCompatRatingBar
+                android:id="@+id/ratingMoy"
+                android:layout_width="234dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:numStars="5"
+                android:progressBackgroundTint="@android:color/darker_gray"
+                android:progressTint="@android:color/holo_red_light"
+                android:scaleX=".4"
+                android:scaleY=".4"
+                android:secondaryProgressTint="@android:color/holo_red_light"
+                android:transformPivotX="0dp"
+                android:transformPivotY="0dp"
+                tools:backgroundTint="@color/material_orange_400"
+                tools:layout_gravity="center_vertical|center_horizontal" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingEnd="8dp"
+            android:paddingStart="8dp">
+
+            <LinearLayout
+                android:id="@+id/container_participating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_friends_24dp" />
+
+                <TextView
+                    android:id="@+id/tvNbParticipant"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center_horizontal"
+                    android:text="00\nParticipating"
+                    android:textColor="@color/colorPrimary" />
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/light_grey" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="16dp"
+            android:text="Information"
+            android:textColor="@color/light_grey" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@mipmap/ic_calendar_red_24dp"
+                android:textColor="@color/light_grey" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                >
+
+                <TextView
+                    android:id="@+id/TvStartDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:text="MON-FRI    07:30-22:30"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/TvEndDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="8dp"
+                    android:text="MON-FRI    07:30-22:30"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@mipmap/ic_more_red_24dp"
+                android:textColor="@color/light_grey" />
+
+            <TextView
+                android:id="@+id/TvDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:paddingRight="16dp"
+                android:text="www.trattoria.com"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/map_detail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></FrameLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

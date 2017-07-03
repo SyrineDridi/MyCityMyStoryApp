@@ -1,0 +1,36 @@
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.esprit.mycitymystory.Utils.DribSearchView
+        android:id="@+id/dribSearchView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        app:breadth="6"
+        app:search_color="#fff"
+        />
+
+    <EditText
+        android:id="@+id/editview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:textSize="18sp"
+        android:layout_marginLeft="8dp"
+        android:textColor="@color/white"
+        android:visibility="gone"
+        android:maxLines="1"
+        android:hint="Search"
+        android:background="@null"/>
+
+</RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
